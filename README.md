@@ -74,12 +74,17 @@ Etapa 4 (Sistema Completo): adaptación del Uart.
 
 ---
 ## 📊 5. Ensayos, Pruebas y Resultados (Común)
+
 Demuestren con datos empíricos que el sistema funciona correctamente. Es obligatorio incluir registro visual.
+
 Pruebas Funcionales Realizadas: Se inyecto señales con un generador de onda, también mediante el Jack de salida de audio de una computadora y por ultimo con una guitarra eléctrica stratocaster.
+
 Evidencia Fotográfica y Gráficos: * Capturas de instrumental: [Insertar capturas de Osciloscopio, Analizador Lógico o Terminal Serie]
+
 Foto del Prototipo Real: [Insertar foto del hardware final cableado/armado en funcionamiento]
+
 ---
-📂 6. Estructura del Repositorio (Común)
+## 📂 6. Estructura del Repositorio (Común)
 El repositorio debe mantener obligatoriamente la siguiente estructura limpia (¡Recuerden configurar correctamente el `.gitignore` para no subir carpetas temporales como `Debug/`, `Release/` o archivos `.p1` / `.d`!).
 ```text
 ├── firmware/          # Código fuente del proyecto (MPLABX / MCUXpresso / STM32Cube)
