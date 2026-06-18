@@ -1,15 +1,15 @@
 [Nombre del Proyecto / Sistema]
-> \*\*Asignatura:\*\* Electrónica Digital \[ III] - Universidad Nacional de Córdoba
+> #\*\*Asignatura:\*\* Electrónica Digital \[ III] - Universidad Nacional de Córdoba
 > \*\*Integrantes:\*\* > \* Nombre Apellido
 > \* Renata Monaldi, Lautaro Ismael Bazan, Tomas Faro
-> Profesor:\[Marcos Blasco]
+> Profesor:\[Marcos Blasco] #
 ---
 🚀 1. Descripción General del Proyecto (Común a DII y DIII)
 Expliquen, en un máximo de dos párrafos, qué hace el sistema, qué problema resuelve y a quién va dirigido. Sean claros, concisos y directos.
  La idea del proyecto es realizar un delay de sonido, es un conocido pedal utilizado para generar efectos de audio en el cual el sonido se repite una cierta cantidad de veces. Esta enfocado específicamente a aquellos que deseen agregar un efecto a su guitarra o microfono.
 
-🎯 Alcances del Proyecto (¿Qué hace y qué NO hace el sistema?)
-Delimiten claramente los objetivos alcanzados para la entrega final:
+🎯 Alcances del Proyecto
+#Objetivos alcanzados para la entrega final:#
  Que hace el sistema:
 Captura y reproduce en tiempo real una señal, mediante una frecuencia de muestreo de 22khz se captura la señal de entrada y luego se procesa matemáticamente en una interrupción. El sistema utiliza DMA para guardar los datos, y moverlos entre dos bancos de memoria distintos dado que en uno se guardan ,y en el otro se procesan y mueven al dac. El procesador solo se activa mediante una interrupción de dma al momento de procesar datos para agregarle el efecto de sonido.
 Mediante UART se ajustan el tiempo de duración del efecto y otro que modifica la separación entre el tiempo donde se vuelve a inyectar una repetición.
@@ -28,7 +28,7 @@ Mediante UART se ajustan el tiempo de duración del efecto y otro que modifica l
 	
 	Ruido debido a las etapas de amplificación de baja calidad.
 -
-⏩ Posibles Etapas Siguientes (Líneas Futuras)
+#⏩ Posibles Etapas Siguientes (Líneas Futuras)#
 Planteen cómo escalaría este desarrollo en una versión 2.0 o en un ámbito profesional:
 Se Utilizaria un amplificador de señal que este adaptado específicamente para audio de estas frecuencias, reduciendo el ruido, además con el mismo objetivo podemos utilizar una placa de pertinax o una pcb hecha a medida. Las capacidades utilizadas para el filtrado pueden ser ajustadas. Por ultimo es posible mejorar algunas funciones del firmware para reducir ruido y ampliar la cantidad de muestras tomadas, por lo que podría aumentarse el tiempo de delay.
 
