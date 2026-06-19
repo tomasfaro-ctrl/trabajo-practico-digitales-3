@@ -1,5 +1,5 @@
 ### DELAY DE GUITARRA 
-> # Asignatura: Electrónica Digital  - Universidad Nacional de Córdoba
+> # Asignatura: Electrónica Digital 3 - Universidad Nacional de Córdoba
 > # Integrantes:
 >  Renata Monaldi, Lautaro Ismael Bazan, Tomas Faro
 > # Profesor:Marcos Blasco
