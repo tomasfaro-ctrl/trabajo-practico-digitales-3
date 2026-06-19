@@ -44,7 +44,7 @@ Se Utilizaria un amplificador de señal que este adaptado específicamente para 
 
 Descripción del Circuito y Consideraciones de Diseño: 	
 
-La lpc en si no esta adaptada para recibir señales de sonido que alternan entre negativo y positivo por lo que se utilizo un divisor resistivo para darle un offset a la señal, luego un amplificador operacional para amplificar la señal para la entrada del adc. Luego, a la salida del dac, utilizamos un capacitor para desacoplar la señal de la continua y mediante un divisor resistivo la mandamos al parlante.
+La placa LPC1769 no está diseñada para procesar directamente señales de audio alternas que presentan componentes positivas y negativas respecto de masa, ya que la entrada del ADC solo admite tensiones dentro del rango comprendido entre 0 V y 3,3 V. Por este motivo, se implementó una etapa de acondicionamiento de señal que permite adaptar la señal de audio a dicho rango de trabajo. En primer lugar, se aplicó un offset de continua mediante un divisor resistivo, centrando la señal alrededor de un valor medio adecuado para el ADC. Posteriormente, se utilizó un amplificador operacional con el objetivo de ajustar la amplitud de la señal y aprovechar de manera más eficiente el rango dinámico disponible en la conversión analógico-digital.
 
 
 
