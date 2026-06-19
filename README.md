@@ -181,7 +181,7 @@ de modo con un boton fisico. Los comandos se procesan sin detener el audio.
 - Revision de errores DMA mediante `AudioEcho_GetDmaErrorFlags()`.
 - Revision del contador de bloques mediante `AudioEcho_GetProcessedBlocks()`.
 
-![Prueba en placa](images/Prueba.png)
+![Prueba en placa](images/Prueba.jpeg)
 *Fuente: Elaboración propia*
 
 Pruebas Funcionales Realizadas: Se inyecto señales con un generador de onda, también mediante el Jack de salida de audio de una computadora y por ultimo con una guitarra eléctrica stratocaster.
