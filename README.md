@@ -9,8 +9,8 @@
  La idea del proyecto es realizar un delay de sonido, es un conocido pedal utilizado para generar efectos de audio en el cual el sonido se repite una cierta cantidad de veces. Esta enfocado específicamente a aquellos que deseen agregar un efecto a su guitarra o microfono.
 
 ## 🎯 Alcances del Proyecto
-#Objetivos alcanzados para la entrega final:
- Que hace el sistema:
+
+# Que hace el sistema:
 Captura y reproduce en tiempo real una señal, mediante una frecuencia de muestreo de 22khz se captura la señal de entrada y luego se procesa matemáticamente en una interrupción. El sistema utiliza DMA para guardar los datos, y moverlos entre dos bancos de memoria distintos dado que en uno se guardan ,y en el otro se procesan y mueven al dac. El procesador solo se activa mediante una interrupción de dma al momento de procesar datos para agregarle el efecto de sonido.
 Mediante UART se ajustan el tiempo de duración del efecto y otro que modifica la separación entre el tiempo donde se vuelve a inyectar una repetición.
 
