@@ -77,11 +77,18 @@ Etapa 4 (Sistema Completo): adaptación del Uart.
 
 Demuestren con datos empíricos que el sistema funciona correctamente. Es obligatorio incluir registro visual.
 
+
+
+
+<img width="598" height="564" alt="WhatsApp Image 2026-06-18 at 8 39 28 PM" src="https://github.com/user-attachments/assets/ab5be071-38d5-4ae4-98c1-ad819272040c" />
+
+
 Pruebas Funcionales Realizadas: Se inyecto señales con un generador de onda, también mediante el Jack de salida de audio de una computadora y por ultimo con una guitarra eléctrica stratocaster.
 
-Evidencia Fotográfica y Gráficos: * Capturas de instrumental: [Insertar capturas de Osciloscopio, Analizador Lógico o Terminal Serie]
+Evidencia Fotográfica y Gráficos:
+https://github.com/user-attachments/assets/956acea3-147b-4a94-a1e5-bea3975f4d62
 
-Foto del Prototipo Real: [Insertar foto del hardware final cableado/armado en funcionamiento]
+
 
 ---
 ## 📂 6. Estructura del Repositorio (Común)
