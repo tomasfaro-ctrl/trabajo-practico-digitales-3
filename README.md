@@ -2,6 +2,7 @@
 
 > **Asignatura:** Electronica Digital III - Universidad Nacional de Cordoba  
 > **Integrantes:** Renata Monaldi, Tomas Faro, Lautaro Aguilar Bazán
+
 > **Profesor: Marcos Javier Blasco
 
 
