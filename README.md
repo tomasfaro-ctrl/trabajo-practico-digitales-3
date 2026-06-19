@@ -1,8 +1,8 @@
-[Nombre del Proyecto / Sistema]
-> #\*\*Asignatura:\*\* Electrónica Digital \[ III] - Universidad Nacional de Córdoba
-> \*\*Integrantes:\*\* > \* Nombre Apellido
-> \* Renata Monaldi, Lautaro Ismael Bazan, Tomas Faro
-> Profesor:\[Marcos Blasco] #
+### DELAY DE GUITARRA 
+> # Asignatura: Electrónica Digital  - Universidad Nacional de Córdoba
+> # Integrantes:
+>  Renata Monaldi, Lautaro Ismael Bazan, Tomas Faro
+> # Profesor:Marcos Blasco
 ---
  ## &#x20;🚀 1. Descripción General del Proyecto .
 
