@@ -96,6 +96,9 @@ DAC AOUT / P0.26
       v
 Salida de audio
 ```
+![Diagrama del proyecto](images/Esquematico.png)
+*Fuente: Elaboración propia*
+
 
 Descripción del Circuito y Consideraciones de Diseño: 	
 
