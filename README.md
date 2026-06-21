@@ -183,6 +183,8 @@ de modo con un boton fisico. Los comandos se procesan sin detener el audio.
 - Revision del contador de bloques mediante `AudioEcho_GetProcessedBlocks()`.
 
 ![Prueba en placa](images/Prueba.jpeg)
+<img width="1600" height="1432" alt="image" src="https://github.com/user-attachments/assets/e8c12f95-bd87-437c-bcda-8c232b67e1e6" />
+
 *Fuente: Elaboración propia*
 
 Pruebas Funcionales Realizadas: Se inyecto señales con un generador de onda, también mediante el Jack de salida de audio de una computadora y por ultimo con una guitarra eléctrica stratocaster.
